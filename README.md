@@ -1,6 +1,16 @@
 # Classification-using-EfficientNet
-
+## Project Overview
 This repository contains a deep learning project for **multiclass image classification** with additional **attribute-based features**. The model combines pre-trained image features from **EfficientNet-B2** with attribute data to improve classification accuracy.
+
+## Technologies
+- **Python**
+- **torch**: PyTorch framework for model building and training.
+- **timm**: Library for accessing pre-trained models like EfficientNet.
+- **torchvision**: For image transformations and preprocessing.
+- **Pandas & NumPy**: For data manipulation.
+- **TensorFlow/Keras**: Used for initial image loading and resizing (via `load_img`).
+- **matplotlib & seaborn**: For data visualization and analysis.
+
 
 ## Dataset
 - **Training Data**: 3,926 images (up-sampled to 7,000)
@@ -29,10 +39,3 @@ This repository contains a deep learning project for **multiclass image classifi
 ### Final Performance
 - The model achieved an **accuracy of 66%** on the test dataset.
 
-## Libraries Used
-- **torch**: PyTorch framework for model building and training.
-- **timm**: Library for accessing pre-trained models like EfficientNet.
-- **torchvision**: For image transformations and preprocessing.
-- **Pandas & NumPy**: For data manipulation.
-- **TensorFlow/Keras**: Used for initial image loading and resizing (via `load_img`).
-- **matplotlib & seaborn**: For data visualization and analysis.
