@@ -1,5 +1,5 @@
 ## Project Overview
-This project develops a **multiclass image classification model** that combines pre-trained image features from **EfficientNet-B2** with structured **attribute data** to improve classification accuracy.
+This project develops a multiclass image classification model that combines pre-trained image features from EfficientNet-B2 with structured attribute data to improve classification accuracy.
 
 ## Technologies
 - Python
